@@ -1,0 +1,84 @@
+Task 1 : Basic Task
+
+1) cd Desktop/
+
+2) mkdir myProject
+
+3) cd myProject/
+
+4) touch app.js
+
+5) cd.., mkdir myProject 2
+
+6) cp myProject/app.js myProject2/app.js
+
+Task 2 : Absolute and Relative Paths
+ 
+1)touch exercise.txt
+  mv exercise.txt /tmp 
+
+2)rm  /tmp/exercise.txt
+
+
+Task 3 : Cat commands
+
+1) cat > umuzi.txt
+
+   cat > recruits.txt
+
+   cat > cohort.txt
+
+2) Filled files with content
+
+3)cat umuzi.txt recruit.txt cohort.txt
+
+4)cat umuzi.txt recruit.txt cohort.txt > summary.txt.
+
+5)echo "Insert text here" >> summary.txt
+
+
+Task 4 : The locate command
+
+1)locate umuzi
+
+2)locate umuzi > search_result.txt
+
+
+Task 5 The locate command cont..
+
+1) mkdir mydocument
+   touch pad.txt
+
+2) cd 
+   cd Desktop/
+   mkdir work
+
+3)  cd
+    cp mydocument/pad.txt Desktop/work/pad_copy.txt
+    
+4) sudo updatedb
+
+5)cd ..
+
+6)locate pad_copy
+
+
+Task 6 Find commands
+
+1)locate *.pdf
+
+2)mkdir ~/Desktop/Last && find -type f -name "*.pdf" -exec cp {} ~/Desktop/Last \;
+
+3)find -newermt "date"
+
+Task 7 Text editor
+
+1)nano /home/recruit/Desktop/my_bio.txt
+
+2) Ctrl O
+   mvCtr x
+
+3)mkdir my_files
+  cd
+  mv Desktop/my_bio.txt my_files/
+
